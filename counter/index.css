@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  height: 6rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-weight: bolder;
+  font-size: x-large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  box-shadow: 0 0.1rem 1rem 0.1rem gray;
+  margin-bottom: 3rem;
+}
+
+.counterValue {
+  font-size: 6rem;
+  margin-left: 10rem;
+}
+
+.reset {
+  padding: 10px 20px;
+  background-color: #00ffff;
+  cursor: pointer;
+  font-weight: bolder;
+  text-align: center;
+  border: 1px solid black;
+  margin-left: 9rem;
+  margin-top: 3rem;
+}
+.allButtons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-left: -2rem;
+}
+.decrementId,
+.incrementId {
+  padding: 15px 20px;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #00ffff;
+  border: 1px solid black;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+.setvalue {
+  display: flex;
+}
+
+.type {
+  margin-left: 1rem;
+  margin-top: 1.2rem;
+  height: 20%;
+  width: 25%;
+}
