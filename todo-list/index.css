@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  height: 6rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-weight: bolder;
+  font-size: x-large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  box-shadow: 0 0.1rem 1rem 0.1rem gray;
+  margin-bottom: 3rem;
+}
+
+input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  /* position: absolute ; */
+  width: 20rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+input::placeholder {
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.list {
+  list-style-type: none; /* Changed from none to type for clarity */
+  /* width: 50%;
+  padding: 0; /* Removed padding to ensure proper alignment */
+}
+
+.list li {
+  display: flex;
+  justify-content: center;
+  margin-left: -2rem;
+
+  align-items: center;
+  gap: 2rem; /* Space between items */
+}
+
+.list input {
+  padding: 10px;
+  margin-left: -2rem;
+  width: 10rem;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  background-color: white; /* Background color for input */
+}
+
+.item-div {
+  gap: 4rem;
+  display: flex;
+  flex-direction: column;
+}
