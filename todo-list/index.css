@@ -25,7 +25,6 @@ input {
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  /* position: absolute ; */
   width: 20rem;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -40,9 +39,7 @@ input::placeholder {
 }
 
 .list {
-  list-style-type: none; /* Changed from none to type for clarity */
-  /* width: 50%;
-  padding: 0; /* Removed padding to ensure proper alignment */
+  list-style-type: none; 
 }
 
 .list li {
@@ -51,7 +48,7 @@ input::placeholder {
   margin-left: -2rem;
 
   align-items: center;
-  gap: 2rem; /* Space between items */
+  gap: 2rem; 
 }
 
 .list input {
@@ -61,7 +58,7 @@ input::placeholder {
   border: 1px solid #ddd;
   margin-bottom: 5px;
   border-radius: 5px;
-  background-color: white; /* Background color for input */
+  background-color: white; 
 }
 
 .item-div {

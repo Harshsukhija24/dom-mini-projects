@@ -2,9 +2,9 @@ const isInput = document.getElementById("input1");
 const list = document.querySelector(".list");
 const emptyMessage = document.getElementById("empty-message");
 
-console.log(list.children.length);
+// console.log(list.children.length);
 
-isInput.addEventListener("keydown", function (event) {  
+isInput.addEventListener("keydown", function (event) {
   if (event.key === "Enter") {
     event.preventDefault();
 
@@ -49,7 +49,6 @@ function updateEmptyMessage() {
   }
 }
 
-
 function EditFunction(editIcon, listInput) {
   function handleEditClick(event) {
     const parentLiTag = event.target.parentElement;
@@ -67,14 +66,8 @@ function EditFunction(editIcon, listInput) {
         saveChanges(inputtag, parentLiTag, editIcon);
       }
     });
-    
-    inputtag.addEventListener("blur", function () {
-      saveChanges(inputtag, parentLiTag, editIcon);
-    });
 
-    editIcon.removeEventListener("click", handleEditClick);
-    
-    editIcon.addEventListener("click", function () {
+    inputtag.addEventListener("blur", function () {
       saveChanges(inputtag, parentLiTag, editIcon);
     });
   }
